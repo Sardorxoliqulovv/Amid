@@ -113,7 +113,45 @@ img {
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
+  margin-bottom: 51px;
 }
+
+
+.btn-bar {
+  display: flex;
+  align-items: center;
+}
+
+.btn__flex {
+  display: flex;
+  align-items: center;
+}
+
+.btn-barLink1 {
+  background-color: #FF823B;
+  padding: 18px 39px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 5%;
+  border-radius: 32px;
+}
+
+.btn-barLink {
+  color: #FF823B;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 5%;
+
+}
+
+.barLink__img {
+  width: 65px;
+}
+
+
 
 .content__hero__img {
   width: 50%;
@@ -142,4 +180,13 @@ img {
   top: -1082px;
   left: 21px;
   width: 600px;
+}
+
+.content__hero__img img:nth-child(4) {
+  position: relative;
+  z-index: 14;
+  top: -1285px;
+  left: 14px;
+  width: 450px;
+  margin-bottom: 90px;
 }
