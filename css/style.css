@@ -187,3 +187,31 @@ img {
   width: 450px;
   margin-bottom: 90px;
 }
+
+/* partners */
+
+#partners {
+  margin-bottom: 100px;
+  margin-top: 90px;
+}
+
+.partners__list__box {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 30px;
+}
+
+.partners__item {
+  background-color: #F1FAF9;
+  width: 255px;
+  height: 103px;
+}
+
+.partners__item img {
+  width: 50px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: auto auto;
+}
