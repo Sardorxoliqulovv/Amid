@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* https://youtube.com/shorts/KCrs4MkXfE8?si=SaF6dMgfNqJHgYfg */
+
 * {
   padding: 0;
   margin: 0;
@@ -151,6 +153,7 @@ img {
 }
 
 .content__hero__img {
+  height: 770px;
   width: 50%;
 }
 
@@ -203,15 +206,117 @@ img {
 }
 
 .partners__item {
-  background-color: #F1FAF9;
-  width: 255px;
-  height: 103px;
-}
-
-.partners__item img {
-  width: 50px;
   justify-content: center;
   display: flex;
   align-items: center;
-  margin: auto auto;
+  background-color: #F1FAF9;
+  width: 255px;
+  height: 103px;
+  border-radius: 10px;
+  padding: 20px 0;
+}
+
+.partners__item img {
+  width: 100px;
+}
+
+/* services */
+
+.services__content__title {
+  width: 534px;
+}
+
+.services__span {
+  outline: 1px solid #F2FAF9;
+  padding: 8px 22px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 10%;
+  color: #FF6107;
+  display: inline-block;
+}
+
+.services__title {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 80px;
+  color: #021D1A;
+}
+
+.services__content__text {
+  width: 428px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+/* support section */
+
+#support__comunity {
+  margin-top: 70px;
+}
+
+.support__comunity__box {
+  width: 350px;
+}
+
+.support__comunity__box__img {
+  width: 80px;
+  background-color: #DBFFE9;
+  padding: 27px 24px;
+  border-radius: 14px;
+}
+
+.support__comunity__title {
+  margin-top: 30px;
+  margin-bottom: 34px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+}
+
+.support__comunity__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+}
+
+.support__comunity__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  margin-bottom: 28px;
+}
+
+.support__comunity__box__btn {
+  color: #124F48;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 5%;
+}
+
+.box__hover {
+  background-color: #F5F5F5CC;
+  border-radius: 20px;
+  padding: 34px;
+}
+
+.box__hover .support__comunity__text {
+  margin-top: -30px;
+}
+
+.cart1 {
+  width: 16px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.support__comunity__box__btn1 {
+  background-color: #FF823B;
+  padding: 18px 39px;
+  color: #fff;
+  border-radius: 28px;
 }
