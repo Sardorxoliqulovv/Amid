@@ -327,6 +327,13 @@ img {
   margin-top: 160px;
 }
 
+#achievements .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 85px;
+}
+
 .right {
   width: 50%;
 }
@@ -380,4 +387,122 @@ img {
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 5%;
+}
+
+.left {
+  width: 50%;
+}
+
+.achievements__left__box {
+  display: flex;
+  align-items: center;
+  gap: 37px;
+  margin-bottom: 30px;
+}
+
+.achievements__left__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 80px;
+  color: #124F485E;
+  width: 83px;
+}
+
+.achievements__left__text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #124F48;
+  width: 122px;
+  margin-left: 40px;
+}
+
+.achievements__span {
+  display: inline-block;
+  width: 143px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 26px;
+  color: #FF823B;
+  margin-left: 74px;
+}
+
+.left img {
+  margin-top: 70px;
+}
+
+.cent__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  margin: 35px 0;
+}
+
+.cent__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+/* blog  */
+
+.blog__content {
+  text-align: center;
+}
+
+.blog__content span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 10%;
+  border: 1px solid #F2FAF9;
+  padding: 10px 29px;
+  color: #FF6107;
+  display: inline-block;
+  border-radius: 5px;
+  margin-top: 150px;
+  margin-bottom: 30px;
+}
+
+.blog__title {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 80px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.blog__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #464646;
+  width: 660px;
+  margin: 0 auto;
+}
+
+.blog__img__section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right img:nth-child(1) {
+  width: 75px;
+  position: relative;
+  display: flex;
+  top: 0;
+}
+.right img:nth-child(2) {
+  width: 460px;
+}
+
+.left img:nth-child(1) {
+  width: 75px;
+  margin: 0;
+}
+
+.left img:nth-child(2) {
+  margin: 0;
 }
