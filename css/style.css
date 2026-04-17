@@ -552,5 +552,10 @@ img {
   color: #124F48;
 }
 
+.blog__right {
+  background-color: #F5F5F5;
+  border-radius: 10px
+}
+
 /* footer */
 
